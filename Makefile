@@ -1,7 +1,7 @@
 .PHONY: clean
 
 all:
-	uuidgen > hash.txt
+	@uuidgen > hash.txt
 
 clean:
-	$(RM) hash.txt
+	@rm hash.txt
